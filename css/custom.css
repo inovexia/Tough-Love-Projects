@@ -1,0 +1,197 @@
+@font-face {
+  font-family: 'SB';
+  src: url('../fonts/suisseintl/suisseintl-bold.woff2') format('woff2'),
+    url('../fonts/suisseintl/suisseintl-bold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SM';
+  src: url('../fonts/suisseintl/suisseintl-medium.woff2') format('woff2'),
+    url('../fonts/suisseintl/suisseintl-medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SR';
+  src: url('../fonts/suisseintl/suisseintl-regular.woff2') format('woff2'),
+    url('../fonts/suisseintl/suisseintl-regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'SMB';
+  src: url('../fonts/suisseintl/suisseintl-semibold.woff2') format('woff2'),
+    url('../fonts/suisseintl/suisseintl-semibold.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@media (min-width: 0) {
+  body {
+    width: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #171717;
+  }
+  header {
+    width: 100%;
+    padding: 15px 0px;
+  }
+  body .container-fluid {
+    width: 100%;
+    max-width: 1770px;
+    margin: 0px auto;
+  }
+  body .card {
+    border-radius: 0;
+    border: 0px;
+    background-color: #171717;
+  }
+  body .card-img,
+  body .card-img-top {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  .navbar-nav {
+    width: 100%;
+    justify-content: end;
+  }
+  .navbar-brand {
+    color: #fff;
+    font-size: 26px;
+    text-decoration: none;
+    padding: 0;
+    font-family: 'SMB';
+  }
+  .navbar-brand:hover {
+    color: #fff;
+  }
+  header .navbar .navbar-nav .nav-link {
+    color: #fff;
+    margin: 10px 0px;
+    font-size: 16px;
+    font-family: 'SR';
+    margin-right: 70px;
+    padding: 0;
+  }
+  header .navbar .navbar-nav .nav-link.hire-us {
+    color: #e3f9cd;
+    border: 1px solid #e3f9cd;
+    border-radius: 30px;
+    padding: 5px 25px;
+    width: max-content;
+    display: inline-flex;
+    align-items: center;
+  }
+  header .navbar .navbar-nav .nav-link:last-child {
+    margin: 0;
+  }
+  /*header h1{
+      color:#fff;
+      margin:0;
+      font-size:26px;
+      font-family:"SB";
+    }*/
+  .title-text {
+    margin-top: 50px;
+  }
+  .title-text h1 {
+    color: #fff;
+    font-size: 36px;
+    margin: 0;
+    line-height: 36px;
+    font-family: 'SR';
+  }
+  .card h5 {
+    margin-bottom: 0;
+  }
+  .card h5 a {
+    color: #fff;
+    text-decoration: none;
+    transition: ease-in-out 0.3s;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'SR';
+  }
+  .card h5 a:hover {
+    opacity: 0.8;
+  }
+  .card-body span {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'SR';
+  }
+  .listing {
+    padding: 100px 0px;
+  }
+  .bottom-menu ul {
+    padding: 0;
+    list-style: none;
+    display: block;
+    margin: 0;
+  }
+  .bottom-menu ul li {
+    margin-right: 15px;
+    display: inline-block;
+  }
+  .bottom-menu ul li:last-child {
+    margin-right: 0;
+  }
+  .bottom-menu ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 14px;
+    font-family: 'SR';
+  }
+  .bottom-list {
+    width: 100%;
+    margin-top: 23px;
+  }
+  .bottom-list ul {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+  }
+  .bottom-list ul li {
+    width: 100%;
+    padding: 51px 30px;
+    border-top: 1px solid #707070;
+  }
+  .bottom-list ul li:last-child {
+    border-bottom: 1px solid #707070;
+  }
+  .bottom-list ul li a {
+    text-decoration: none;
+    color: #f4f4f4;
+    font-size: 20px;
+    font-family: 'SR';
+  }
+}
+@media (min-width: 768px) {
+  .bottom-menu ul li {
+    margin-right: 40px;
+  }
+  .bottom-menu ul li a {
+    font-size: 18px;
+  }
+}
+@media (min-width: 992px) {
+  header {
+    width: 100%;
+    padding: 60px 0px;
+  }
+  .title-text {
+    margin-top: 150px;
+  }
+  .listing {
+    padding: 275px 0px 100px;
+  }
+  .bottom-menu ul li {
+    margin-right: 91px;
+  }
+  .bottom-menu ul li a {
+    font-size: 20px;
+  }
+}
