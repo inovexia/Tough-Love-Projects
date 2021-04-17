@@ -55,7 +55,7 @@
   }
   .navbar-nav {
     width: 100%;
-    justify-content: end;
+    justify-content: flex-end;
   }
   .navbar-brand {
     color: #fff;
@@ -168,6 +168,37 @@
     font-size: 20px;
     font-family: 'SR';
   }
+
+  #myTab {
+    width: 100%;
+    text-align: right;
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  #myTabContent {
+    width: 100%;
+  }
+  .nav-tabs {
+    border-bottom: none;
+  }
+
+  #myTab .nav-link,
+  #myTab .nav-link.active {
+    color: #f4f4f4;
+    background-color: transparent;
+    border: none;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0;
+    font-family: 'SR';
+  }
+  .nav-tabs .nav-item {
+    margin-right: 10px;
+  }
+  .nav-tabs .nav-item:last-child {
+    margin-right: 0px;
+  }
 }
 @media (min-width: 768px) {
   .bottom-menu ul li {
@@ -175,6 +206,14 @@
   }
   .bottom-menu ul li a {
     font-size: 18px;
+  }
+  .nav-tabs .nav-item {
+    margin-right: 40px;
+  }
+  #myTab .nav-link,
+  #myTab .nav-link.active {
+    font-size: 18px;
+    line-height: 18px;
   }
 }
 @media (min-width: 992px) {
@@ -193,5 +232,13 @@
   }
   .bottom-menu ul li a {
     font-size: 20px;
+  }
+  .nav-tabs .nav-item {
+    margin-right: 91px;
+  }
+  #myTab .nav-link,
+  #myTab .nav-link.active {
+    font-size: 20px;
+    line-height: 20px;
   }
 }
